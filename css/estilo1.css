@@ -7,7 +7,7 @@ body,html{ /*estiliza o body e o html ao mesmo tempo*/
 
 .parallax1{
     position:relative;
-    background-image: url("/img/foto11.png");
+    background-image: url("img/foto11.png");
     min-height: 100%;
     opacity: 1; /*mexe na transparência; quanto mais perto do zero mais transparente fica*/
     background-position: center; /*centraliza a imagem*/
