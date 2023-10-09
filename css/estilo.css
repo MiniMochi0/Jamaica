@@ -7,7 +7,7 @@ body,html{ /*estiliza o body e o html ao mesmo tempo*/
 
 .parallax1{
     position:relative;
-    background-image: url("/img/foto1.png");
+    background-image: url("img/foto1.png");
     min-height: 100%;
     opacity: 1; /*mexe na transparência; quanto mais perto do zero mais transparente fica*/
     background-position: center; /*centraliza a imagem*/
@@ -34,7 +34,7 @@ body,html{ /*estiliza o body e o html ao mesmo tempo*/
 
 .parallax2{
     position: relative;
-    background-image: url("/img/foto4.png");
+    background-image: url("img/foto4.png");
     min-height: 100%;
     opacity: 1;
     background-position: center;
@@ -51,7 +51,7 @@ body,html{ /*estiliza o body e o html ao mesmo tempo*/
 
 .parallax3{
     position:relative;
-    background-image: url("/img/foto2.png");
+    background-image: url("img/foto2.png");
     min-height: 100%;
     opacity: 1;
     background-position: center;
