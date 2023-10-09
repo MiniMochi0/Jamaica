@@ -1,0 +1,121 @@
+body,html{ /*estiliza o body e o html ao mesmo tempo*/
+    height: 100%;
+    margin: 0;
+    font: 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.parallax1{
+    position:relative;
+    background-image: url("/img/foto1.png");
+    min-height: 100%;
+    opacity: 1; /*mexe na transparência; quanto mais perto do zero mais transparente fica*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*Não permite repetição da imagem*/
+    background-size: cover; /*redimenciona a imagem de acordo com a área visível, mantendo a proporção*/
+    background-attachment:fixed;
+}
+
+.caption{ /*Define o posicionamento do texto Scroll Down e Scroll UP*/
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border{ /*Define a cor do texto e espaçamento*/
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.parallax2{
+    position: relative;
+    background-image: url("/img/foto4.png");
+    min-height: 100%;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.parallax2 span.border{
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+.parallax3{
+    position:relative;
+    background-image: url("/img/foto2.png");
+    min-height: 100%;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.parallax3 span.border{
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+.box1{
+    color: white;
+    background-color: #5f5454;
+    text-align:justify;
+    padding: 50px 80px;
+}
+
+.box1 h3{
+    text-align: center;
+}
+
+.box2{
+    color: white;
+    background-color: #5f5454;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.botao{
+    position:absolute;
+    top:0px;
+    left:600px;
+    margin:0px;
+    padding:8px;
+}
+
+.botao a {  
+    font: bold 12px/24px arial, helvetica, sans-aerif;	
+    padding:0px;
+    text-decoration: none;
+    text-align:center;	
+    color:#000000;
+    background:url('botao_link.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    width:120px;  
+    height:24px;	
+    display:block;	
+        }
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.rodape img{
+    position:absolute;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

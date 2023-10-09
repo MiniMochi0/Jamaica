@@ -1,0 +1,100 @@
+body,html{ /*estiliza o body e o html ao mesmo tempo*/
+    height: 100%;
+    margin: 0;
+    font: 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.parallax1{
+    position:relative;
+    background-image: url("/img/foto11.png");
+    min-height: 100%;
+    opacity: 1; /*mexe na transparência; quanto mais perto do zero mais transparente fica*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*Não permite repetição da imagem*/
+    background-size: cover; /*redimenciona a imagem de acordo com a área visível, mantendo a proporção*/
+    background-attachment:fixed;
+}
+
+
+.caption{ /*Define o posicionamento do texto Scroll Down e Scroll UP*/
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    color: #f3eaea;
+}
+
+.caption span.border{ /*Define a cor do texto e espaçamento*/
+    background-color: #111;
+    color: #82d2f1;
+    padding: 18px;
+    letter-spacing: 10px;
+    width: 60px;
+}
+
+.principal{
+    display:flex;
+    flex-direction: row; /*Deixa em coluna*/
+}
+
+.conteudo{
+    float:left;
+    margin: 15px 2px 25px 2px;
+    background-color: #2677ad59;
+    padding: 60px; /*Para não deixar tão colado*/
+    text-align: justify;
+    border-radius: 5px;
+    
+}
+.conteudo1{
+    color: #111;
+    float:left;
+    margin: 15px 2px 25px 2px;
+    background-color: #2677ad59;
+    padding: 60px; /*Para não deixar tão colado*/
+    text-align: justify;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.205);
+}
+
+.conteudo2{
+    color: #111;
+    float:left;
+    margin: 15px 2px 25px 2px;
+    background-color: #2677ad59;
+    padding: 60px; /*Para não deixar tão colado*/
+    text-align: justify;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 0, 0.411);
+}
+
+.botao a{  
+    font: bold 12px/24px arial, helvetica, sans-aerif;	
+    font-size: 5%;
+    padding:0px;
+    text-decoration: none;
+    text-align:center;	
+    color:#ccc;
+    background:url('botao_link.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    width:120%;  
+    height:24%;	
+    display:block;	
+        }
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.rodape img{
+    font-size: 5%;
+    height: 100px;
+}
+
+
